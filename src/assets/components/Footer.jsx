@@ -41,8 +41,8 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-gray-400">
               <li>research@neuromorphix.com</li>
-              <li>Innovation District</li>
-              <li>Advanced Computing Lab</li>
+              <li>Atal Bihari Vajpayee Indian Institute of Information Technology and Management</li>
+              <li>University in Gwalior, Madhya Pradesh,Bharat</li>
             </ul>
           </div>
         </div>

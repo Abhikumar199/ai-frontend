@@ -146,7 +146,7 @@ export default function Contact() {
                 <h3 className="font-semibold text-gray-900 mb-1">Address</h3>
                 <p className="text-gray-600">
                   Atal Bihari Vajpayee Indian Institute of Information Technology and Management<br />
-                  University in Gwalior, Madhya Pradesh <br />
+                  University in Gwalior, Madhya Pradesh,Bharat <br />
                 </p>
               </div>
             </div>

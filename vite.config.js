@@ -4,7 +4,13 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-resolve: {
-  dedupe: ["react", "react-dom"]
-}
+  base: '/', // For custom domain
+  resolve: {
+    dedupe: ["react", "react-dom"]
+  },
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    sourcemap: false
+  }
 })

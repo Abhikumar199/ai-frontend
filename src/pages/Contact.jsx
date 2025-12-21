@@ -123,7 +123,7 @@ export default function Contact() {
               <div>
                 <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
                 <p className="text-gray-600">research@neuromorphix.com</p>
-                <p className="text-gray-600">info@neuromorphix.com</p>
+                <p className="text-gray-600">abhiabhishekkumar8282@gmail.com</p>
               </div>
             </div>
 
@@ -133,8 +133,8 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="font-semibold text-gray-900 mb-1">Phone</h3>
-                <p className="text-gray-600">+1 (555) 123-4567</p>
-                <p className="text-gray-600">+1 (555) 987-6543</p>
+                <p className="text-gray-600">+91 7819992859</p>
+                {/* <p className="text-gray-600">+1 (555) 987-6543</p> */}
               </div>
             </div>
 
@@ -145,9 +145,8 @@ export default function Contact() {
               <div>
                 <h3 className="font-semibold text-gray-900 mb-1">Address</h3>
                 <p className="text-gray-600">
-                  Advanced Computing Lab<br />
-                  Innovation District<br />
-                  Tech City, TC 12345
+                  Atal Bihari Vajpayee Indian Institute of Information Technology and Management<br />
+                  University in Gwalior, Madhya Pradesh <br />
                 </p>
               </div>
             </div>

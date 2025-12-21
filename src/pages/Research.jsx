@@ -108,7 +108,7 @@ export default function Research() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">Recent Publications</h2>
           <div className="space-y-6">
-            {[
+             {[
               {
                 title: "Efficient Spike-Timing-Dependent Plasticity in Neuromorphic Hardware",
                 authors: "Chen, S., Rodriguez, M., Watson, E.",
@@ -126,7 +126,7 @@ export default function Research() {
                 authors: "Rodriguez, M., Chen, S., Watson, E.",
                 journal: "Science Advances",
                 year: "2023"
-              }
+              } 
             ].map((pub, idx) => (
               <div key={idx} className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">{pub.title}</h3>

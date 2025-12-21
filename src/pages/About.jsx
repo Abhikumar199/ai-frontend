@@ -86,14 +86,14 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-4">Our Team</h2>
           <p className="text-xl text-gray-600 text-center mb-16 max-w-3xl mx-auto">
-            World-class researchers and engineers united by a passion for neuromorphic computing
+            We are a collaborative team driven by excellence, learning, and innovation. Our founders, researchers, and engineers—ranging from fresh graduates to experienced professionals—work together in an environment where ideas thrive and impactful neuromorphic research takes shape.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { name: "Dr. Sarah Chen", role: "Chief Research Scientist", specialty: "Spiking Neural Networks" },
-              { name: "Dr. Michael Rodriguez", role: "Lead Engineer", specialty: "Neuromorphic Hardware" },
-              { name: "Dr. Emily Watson", role: "AI Research Director", specialty: "Brain-Computer Interfaces" }
+              { name: "Mr. Abhishek Kumar", role: "Founder & Principal Investigator", specialty:" MS AI & Data Science | Research Trainee in Computational Neuroscience" },
+            //   { name: "Dr. Michael Rodriguez", role: "Lead Engineer", specialty: "Neuromorphic Hardware" },
+            //   { name: "Dr. Emily Watson", role: "AI Research Director", specialty: "Brain-Computer Interfaces" }
             ].map((member, idx) => (
               <div key={idx} className="bg-gray-50 rounded-xl p-6 text-center hover:shadow-lg transition-shadow">
                 <div className="w-32 h-32 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full mx-auto mb-4 flex items-center justify-center">
